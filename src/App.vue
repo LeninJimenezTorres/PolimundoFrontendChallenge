@@ -3,19 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Polimundo"/> -->
     <TitleComponent msg="Polimundo" subtitle="Frontend Challenge"/>
-
+    <TicketsMenu/>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import TitleComponent from './components/Title.vue'
+import TicketsMenu from './components/TicketsMenu.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    TitleComponent
+    TitleComponent,
+    TicketsMenu
   }
 }
 </script>
